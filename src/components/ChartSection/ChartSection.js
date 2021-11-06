@@ -68,7 +68,7 @@ const ChartStyles = styled.div`
     .chartImg {
       grid-column: 1/3;
       grid-row: 2/3;
-      width:100%;
+      width: 100%;
       border-radius: 30px;
       box-shadow: 2px 8px 10px var(--gray-color);
     }
@@ -84,16 +84,14 @@ const ChartStyles = styled.div`
   p {
     margin-bottom: 20px;
   }
-  @media (max-width: 412px) {
-    grid-template-columns: repeat(1, 1fr);
-    grid-row-gap: 30px;
+  @media (max-width: 981px) {
     .left-content {
       h1 {
-        font-size: 30px;
+        font-size: 32px;
         margin-bottom: 10px;
       }
       p {
-        font-size: 13.5px;
+        font-size: 13px;
       }
     }
     .state1 {
@@ -106,6 +104,265 @@ const ChartStyles = styled.div`
         font-size: 30px;
       }
     }
+    Button {
+      font-size: 14px;
+    }
   }
+  @media (max-width: 868px) {
+    .left-content {
+      h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+    .state1 {
+      padding: 0 15px;
+      h1 {
+        font-size:25px;
+      }
+    }
+    .state2 {
+      padding: 0 15px;
+      h1 {
+        font-size:25px;
+      }
+    }
+    Button {
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 823px) {
+    .left-content {
+      h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+    .state1 {
+      padding: 0 20px;
+      h1 {
+        font-size:20px;
+      }
+    }
+    .state2 {
+      padding: 0 20px;
+      h1 {
+        font-size:20px;
+      }
+      h5{
+        font-size:14px;
+      }
+    }
+    Button {
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 786px) {
+    .left-content {
+      h1 {
+        font-size: 26px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 11px;
+      }
+    }
+    .state1 {
+      padding: 0 20px;
+      h1 {
+        font-size:20px;
+      }
+    }
+    .state2 {
+      padding: 0 20px;
+      h1 {
+        font-size:20px;
+      }
+      h5{
+        font-size:12px;
+      }
+    }
+    Button {
+      font-size:12px;
+    }
+  }
+  @media (max-width: 771px) {
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap:40px;
+    .left-content {
+      h1 {
+        font-size:30px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+    .state1 {
+      padding: 0 20px;
+      h1 {
+        font-size:40px;
+      }
+      h5{
+        font-size:17px;
+      }
+    }
+    .state2 {
+      padding: 0 20px;
+      h1 {
+        font-size:40px;
+      }
+      h5{
+        font-size:17px;
+      }
+    }
+    Button {
+      font-size:15px;
+    }
+  }
+  @media (max-width: 442px) {
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap:40px;
+    .left-content {
+      h1 {
+        font-size:26px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+    .state1 {
+      padding: 0 20px;
+      h1 {
+        font-size:30px;
+      }
+      h5{
+        font-size:14px;
+      }
+    }
+    .state2 {
+      padding: 0 20px;
+      h1 {
+        font-size:30px;
+      }
+      h5{
+        font-size:14px;
+      }
+    }
+    Button {
+      font-size:13px;
+    }
+  }
+  @media (max-width: 400px) {
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap:40px;
+    .left-content {
+      h1 {
+        font-size:24px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 11px;
+      }
+    }
+    .state1 {
+      padding: 0 20px;
+      h1 {
+        font-size:30px;
+      }
+      h5{
+        font-size:14px;
+      }
+    }
+    .state2 {
+      padding: 0 20px;
+      h1 {
+        font-size:30px;
+      }
+      h5{
+        font-size:14px;
+      }
+    }
+    Button {
+      font-size:12px;
+    }
+  }
+  @media (max-width: 376px) {
+    padding-top: 100px;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap:40px;
+    .left-content {
+      h1 {
+        font-size:24px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 11px;
+      }
+    }
+    .state1 {
+      padding: 0 20px;
+      h1 {
+        font-size:25px;
+      }
+      h5{
+        font-size:12px;
+      }
+    }
+    .state2 {
+      padding: 0 20px;
+      h1 {
+        font-size:25px;
+      }
+      h5{
+        font-size:12px;
+      }
+    }
+    Button {
+      font-size:12px;
+    }
+  }
+  @media (max-width: 366px) {
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap:40px;
+    .left-content {
+      h1 {
+        font-size:24px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 11px;
+      }
+    }
+    .state1 {
+      padding: 0 20px;
+      h1 {
+        font-size:25px;
+      }
+      h5{
+        font-size:12px;
+      }
+    }
+    .state2 {
+      padding: 0 20px;
+      h1 {
+        font-size:25px;
+      }
+      h5{
+        font-size:12px;
+      }
+    }
+    Button {
+      font-size:12px;
+    }
+  }
+  
 `;
 export default ChartSection;

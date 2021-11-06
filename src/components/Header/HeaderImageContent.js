@@ -7,7 +7,7 @@ import message2 from '../../img/message_blue.svg'
 const HeaderImageContent = () => {
     return (
         <HeaderContent>
-            <img src={Phone} alt="" />
+            <img className="mainImg" src={Phone} alt="" />
             <img className="ring1" src={Ring1} alt="" />
             <img className="message1" src={message1} alt="" />
             <img className="message2" src={message2} alt="" />

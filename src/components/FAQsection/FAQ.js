@@ -42,7 +42,6 @@ const FQAStyles = styled.div`
       }
     }
     p {
-      width: 50%;
       margin: 0 auto;
       margin-bottom: 50px;
     }
@@ -54,6 +53,104 @@ const FQAStyles = styled.div`
       z-index: -1;
     }
   }
-  
+  @media (max-width: 992px) {
+    .heading {
+      h3 {
+        font-size: 32px;
+      }
+      p {
+        font-size: 14px;
+      }
+      img {
+      width: 80%;
+      position: absolute;
+      top: 356%;
+      left: 0;
+      z-index: -1;
+    }
+    }
+  }
+  @media (max-width: 974px) {
+    .heading {
+      h3 {
+        font-size: 32px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  @media (max-width: 602px) {
+    .heading {
+      h3 {
+        font-size: 32px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    button {
+      .plus {
+        width: 16px;
+      }
+    }
+    h4{
+      font-size: 14px;
+    }
+  }
+  @media (max-width:529px) {
+    .heading {
+      h3 {
+        font-size: 32px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    button {
+      .plus {
+        width: 14px;
+      }
+    }
+    h4{
+      font-size: 13px;
+    }
+  }
+  @media (max-width:475px) {
+    .heading {
+      h3 {
+        font-size: 32px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    button {
+      .plus {
+        width: 14px;
+      }
+    }
+    h4{
+      font-size: 12.5px;
+    }
+  }
+  @media (max-width:460px) {
+    .heading {
+      h3 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+    button {
+      .plus {
+        width: 12px;
+      }
+    }
+    h4{
+      font-size: 12px;
+    }
+  }
 `;
 export default FAQ;

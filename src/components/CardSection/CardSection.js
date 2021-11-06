@@ -41,11 +41,81 @@ const CardSectionStyle = styled.div`
   h1 {
     color: var(--main4-color);
   }
-  @media (max-width: 412px) {
+  @media (max-width: 992px) {
+    padding-top: 0;
+    p {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 901px) {
+    padding-top: 0;
+    p {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 823px) {
+    padding-top: 0;
+    h1 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 771px) {
     grid-template-columns: repeat(1, 1fr);
-    grid-row-gap:20px ;
-    img{
-        width:270px;
+    grid-row-gap: 40px;
+    padding-top: 0;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 14px;
+    }
+    img {
+      width: 400px;
+    }
+  }
+  @media (max-width: 490px) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 40px;
+    padding-top: 0;
+    h1 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 13px;
+    }
+    img {
+      width: 350px;
+    }
+  }
+  @media (max-width: 436px) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 40px;
+    padding-top: 0;
+    h1 {
+      font-size: 26px;
+    }
+    p {
+      font-size: 12px;
+    }
+    img {
+      width: 300px;
+    }
+  }
+  @media (max-width: 376px) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 40px;
+    padding-top: 0;
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 11px;
+    }
+    img {
+      width: 280px;
     }
   }
 `;

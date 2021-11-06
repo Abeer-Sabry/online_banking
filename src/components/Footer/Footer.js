@@ -64,5 +64,11 @@ const FooterStyles = styled.div`
     margin-bottom: 5px;
     color: var(--main4-color);
   }
+  @media (max-width:771px){
+    .nav-content {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap:40px;
+    }
+  }
 `;
 export default Footer;
