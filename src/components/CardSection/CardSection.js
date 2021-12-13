@@ -4,7 +4,7 @@ import card from "../../img/creditcard.svg";
 const CardSection = () => {
   return (
     <CardSectionStyle>
-      <div className="card-left">
+      <div className="card-left" >
         <h1>One Card for all your Payments </h1>
         <p>
           {" "}

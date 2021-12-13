@@ -6,7 +6,7 @@ import AnimatedButton from "../AnimatedButton/AnimatedButton";
 const ChartSection = () => {
   return (
     <ChartStyles>
-      <div className="right-content">
+      <div className="right-content" id="features">
         <ChartState className="state1" name={"Balance"} amount={"$250"} />
         <ChartState
           className="state2"

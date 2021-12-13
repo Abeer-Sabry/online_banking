@@ -9,6 +9,7 @@ const Header = () => {
     <>
       <HeaderStyles>
         <CustomContainer>
+          <div id="home">
           <div className="header-content">
             <div className="leftContent">
               <HeaderTextContent />
@@ -16,6 +17,7 @@ const Header = () => {
             <div className="rightContent">
               <HeaderImageContent />
             </div>
+          </div>
           </div>
         </CustomContainer>
       </HeaderStyles>

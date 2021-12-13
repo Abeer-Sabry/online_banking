@@ -10,7 +10,7 @@ import StyledPaymentCard from "./StyledPaymentCard";
 const PaymentSection = () => {
     return (
         <PaymentStyles>
-            <div className="paymentHeading">
+            <div className="paymentHeading" id="pricing">
                 <h1>
                     An Expectional Service , <span>at the right price</span>
                 </h1>

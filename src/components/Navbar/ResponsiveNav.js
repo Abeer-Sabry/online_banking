@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { NavLink } from "react-router-dom";
+import { Link} from "react-scroll";
 import styled from "styled-components";
 import Button from "../Button/Button";
 
@@ -12,8 +12,9 @@ const ResponsiveNav = () => {
     <ResponsiveContent responsive={responsive}>
       <ul>
         <li>
-          <NavLink to="/home">Home</NavLink>
-          <NavLink to="/info">info</NavLink>
+          <Link to="home" smooth={true} duration={1000}>Home</Link>
+          <Link to="features" smooth={true} duration={1000}>Features</Link>
+          <Link to="pricing" smooth={true} duration={1000}>pricing</Link>
         </li>
         
       </ul>

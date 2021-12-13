@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link} from "react-scroll";
 import styled from "styled-components";
 import Button from "../Button/Button";
 import logo from "../../img/logo.svg";
@@ -19,12 +19,11 @@ const Navbar = () => {
               </Link>
               <ul className="main-list">
                 <li>
-                  <NavLink to="/home">Home</NavLink>
-                  <NavLink to="/info">info</NavLink>
+                  <Link to="home" smooth={true} duration={1000}>Home</Link>
+                  <Link to="features" smooth={true} duration={1000}>Features</Link>
                 </li>
                 <li>
-                  <NavLink to="/home">Home</NavLink>
-                  <NavLink to="/info">info</NavLink>
+                  <Link to="pricing" smooth={true} duration={1000}>Pricing</Link>
                 </li>
               </ul>
               <Button type="submit">Signup</Button>
@@ -43,7 +42,9 @@ const Navbar = () => {
 
 const NavStyles = styled.nav`
   position: relative;
+ 
   .all-content {
+    
     display: flex;
     align-items: center;
     justify-content: space-between;

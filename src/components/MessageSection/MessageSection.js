@@ -151,7 +151,7 @@ const MessageStyles = styled.div`
     .image3,
     .image4,
     .image5 {
-      width:50px;
+      width: 50px;
     }
     .left_circle,
     .right_circle {
@@ -159,71 +159,68 @@ const MessageStyles = styled.div`
     }
   }
   @media (max-width: 771px) {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 40px;
     h1 {
       font-size: 30px;
     }
     p {
-      font-size:14px;
+      font-size: 14px;
     }
     .image1,
     .image2,
     .image3,
     .image4,
     .image5 {
-      width:60px;
+      width: 60px;
     }
     .left_circle,
     .right_circle {
-      width:100px;
+      width: 100px;
     }
-   
   }
   @media (max-width: 515px) {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 40px;
     h1 {
-      font-size:28px;
+      font-size: 28px;
     }
     p {
-      font-size:13px;
+      font-size: 13px;
     }
     .image1,
     .image2,
     .image3,
     .image4,
     .image5 {
-      width:55px;
+      width: 55px;
     }
     .left_circle,
     .right_circle {
-      width:100px;
+      width: 100px;
     }
-   
   }
   @media (max-width: 376px) {
     padding-top: 150px;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 40px;
     h1 {
-      font-size:25px;
+      font-size: 25px;
     }
     p {
-      font-size:12px;
+      font-size: 12px;
     }
     .image1,
     .image2,
     .image3,
     .image4,
     .image5 {
-      width:55px;
+      width: 55px;
     }
     .left_circle,
     .right_circle {
-      width:100px;
+      width: 100px;
     }
-   
   }
 `;
 export default MessageSection;
